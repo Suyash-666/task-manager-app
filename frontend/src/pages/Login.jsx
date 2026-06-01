@@ -46,7 +46,7 @@ navigate("/dashboard");
 
   return (
 
-    <div>
+   <div className="container">
 
       <h2>Login</h2>
 

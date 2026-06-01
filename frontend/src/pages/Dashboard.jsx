@@ -115,7 +115,7 @@ const logout = () => {
 };
   return (
 
-    <div>
+   <div className="container">
 
       <h2>Dashboard</h2>
       <button onClick={logout}>
@@ -142,7 +142,8 @@ const logout = () => {
 
           <div key={task._id}>
 
-           <p>
+           <div className="task">
+  <p>
   {task.title}
 
   <button
@@ -151,6 +152,7 @@ const logout = () => {
     Delete
   </button>
 </p>
+</div>
 
           </div>
 
